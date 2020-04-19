@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    width: auto;
+}
+
+body{
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+
+.showcase{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background:linear-gradient(rgba(0.3,1.2,0.4,0.9), rgba(1.2,1.4,1.8,0.3)), url('../image/csm_Stainless_Steel_Railings_bd7bbb2507.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    top: 0%;
+}
+
+.content{
+    margin: 25% auto ;
+    max-width: 500px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 500px #000;
+    color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.content p{
+    font: message-box;
+    color: #f0ec0df3;
+    margin-bottom: 15px;
+}
+
+.btn{
+    margin: 25px 5px 0px 5px;
+    padding: 10px;
+    border: #f0ec0df3 solid 2px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0ec0df3;
+    border-radius: 10px;
+    background: none;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.btn:hover{
+    background: #ffffff;
+    transition: all;
+    transition-duration: 1s;
+    color: #000;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.msg{
+    margin: 0;
+    display: table-row;
+}
+
+.msg p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center;
+    margin: 30px;
+    text-align: justify;
+}
